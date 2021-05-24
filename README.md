@@ -16,7 +16,7 @@ Embarked: The port where the passenger embarked (C=Cherbourg, Q=Queenstown, S=So
 
 The dataset had some missing values in the columns: Age, Cabin and Embarked. The missing values were imputed using SimpleImputer.
 Next, pivot table was used to calculate the survival rate for different gender and Pclass combination. Visualized the distribution of Column Age for both survived and non-survived population.
-Then, uing sns.barplot, the survival rate for column SibSp and Parch is visualised.
+Then, using sns.barplot, the survival rate for column SibSp and Parch is visualised.
 Moving on, the correlations between the feature and the target variable Survived were analysed and visualised using heatmap.
 Using sns.FacetGrid, we analysed the correlations between embarkements and the survival rate based on gender, and found out that womean had higher chances of survival at Port Q and S.
 To predict the probability of survival for all the passengers, I built a Logistic Regression model.
